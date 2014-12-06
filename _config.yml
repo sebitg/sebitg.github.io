@@ -3,5 +3,5 @@ locale: en_US
 description: "Sebastian Mekal dev blog"
 logo: 
 search: true
-#url: http://sebitg.github.io
-url: http://localhost:4000
+url: http://sebitg.github.io
+#url: http://localhost:4000
