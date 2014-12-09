@@ -37,6 +37,7 @@ footer, header, hgroup, menu, nav, section {
 
 ol, ul {
   list-style: none;
+  list-style-type: none;
 }
 
 table {
@@ -201,7 +202,7 @@ ul, ol, dl {
 }
 
 ul {
-  list-style: inside;
+  list-style: none !important;
   padding-left: 20px;
 }
 
@@ -489,5 +490,13 @@ Small Device Styles
 .container-fluid {
 	padding-right: 0px;
 	padding-left: 0px;
+}
+
+.post-list .row .row-right {
+	float: right;
+}
+
+.post-list .row .row-right time {
+	float: right;
 }
 /** BOOTSTRAP CUSTOMIZATIONS END **/

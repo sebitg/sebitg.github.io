@@ -5,13 +5,15 @@ excerpt: "Sebitg tech blog"
 image:
 feature: home-background.png
 ---
-<ul class="post-list">
-{% for post in site.posts limit:30 %}
-	<li>
-		<article>
-			<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-			<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
-		</article>
-	</li>
-{% endfor %}
-</ul>
+<div class="post-list">
+	{% for post in site.posts limit:30 %}
+		<div class="row">
+			<div class="col-xs-7 col-md-7 col-lg-7">
+				<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+			</div>
+			<div class="col-xs-5 col-md-5 col-lg-5 row-right">
+				<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+			</div>
+		</div>
+	{% endfor %}
+</div>
