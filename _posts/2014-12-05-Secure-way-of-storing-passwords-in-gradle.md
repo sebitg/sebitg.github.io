@@ -51,6 +51,7 @@ archiva.password=xxxxx
 {% highlight groovy %}
 import java.util.Properties
 import java.io.*
+
 allprojects {
 	println "[INIT SCRIPT] Initializing script START..."
 	Properties props = loadExternalProps()
@@ -61,6 +62,7 @@ allprojects {
 		}
 	}
 }
+
 def loadExternalProps() {
 	String userGradleDir = System.getProperty("user.home") + "/.gradle/"
 	File file = new File(userGradleDir + "init-settings.properties")
