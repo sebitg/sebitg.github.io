@@ -2,7 +2,7 @@
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
-
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
 @import url(pygment_trac.css);
 
 /*******************************************************************************
@@ -426,3 +426,68 @@ Small Device Styles
   }
 
 }
+
+/** ICONS START **/
+.icons-row {
+  margin: 0.5em 0;
+  float: right;
+  clear: both;
+  background: transparent;
+  margin-top: 2em !important;
+  padding-top: 10px;
+}
+
+.icons-row a {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  color: #34495e;
+  border: 2px solid;
+  border-radius: 50%;
+  padding: 0.5em;
+  position: relative;
+  background: transparent;
+}
+
+.icons-row a:hover {
+  cursor: pointer;
+  top: -2px;
+  border-radius: 50%;
+  color: white !important;
+  text-decoration: none;
+}
+
+.icons-row a:nth-child(1) {
+  color: #3b5998;
+  border-color: #3b5998;
+}
+.icons-row a:nth-child(2) {
+  color: #00a0d1;
+  border-color: #00a0d1;
+}
+.icons-row a:nth-child(3) {
+  color: #db4a39;
+  border-color: #db4a39;
+}
+
+.icons-row a:nth-child(1):hover {
+  background: #3b5998;
+}
+.icons-row a:nth-child(2):hover {
+  background: #00a0d1;
+}
+.icons-row a:nth-child(3):hover {
+  background: #db4a39;
+}
+/** ICONS END **/
+
+
+/** BOOTSTRAP CUSTOMIZATIONS START **/
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+/** BOOTSTRAP CUSTOMIZATIONS END **/

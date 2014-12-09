@@ -1,0 +1,19 @@
+{
+  "name": "spring-training",
+  "version": "0.1.0",
+  "authors": [
+    "Sebastian Mekal"
+  ],
+  "description": "Spring training",
+  "keywords": [
+    "training",
+    "spring"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+	"jquery": "https://github.com/jquery/jquery.git",
+	"bootstrap": "https://github.com/twbs/bootstrap.git",
+	"underscore": "https://github.com/jashkenas/underscore.git"
+  }
+}

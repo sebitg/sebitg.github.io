@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0",
+	"private": true,
+	"name": "spring-training",
+	"description": "Spring web training",
+	"repository": "",
+	"license": "MIT",
+	"devDependencies": {
+		"bower": "1.3.12"
+	},
+	"scripts": {
+		"postinstall": "bower install"
+	}
+}

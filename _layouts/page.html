@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="sebitg.github.io : dev technologies blog">
 
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/bower_components/underscore/underscore-min.js"></script>
 
     <title>sebitg.github.io</title>
   </head>
   <body>
-  	{% include header.html %}
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-      		{{content}}
-      </section>
-    </div>
-    {% include footer.html %}
+  	<div class="container-fluid">
+  		{% include header.html %}
+    	<div id="main_content_wrap" class="outer">
+      		<section id="main_content" class="inner">
+      			{{content}}
+      		</section>
+    	</div>
+    	{% include footer.html %}
+  	</div>
   </body>
 </html>
