@@ -365,7 +365,7 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #footer_wrap {
@@ -500,3 +500,30 @@ Small Device Styles
 	float: right;
 }
 /** BOOTSTRAP CUSTOMIZATIONS END **/
+
+.social-buttons > div {
+	float: right;	
+}
+
+.twitter-share {
+	padding-top: 4px;
+	width: 85px;
+}
+
+.twitter-share > a {
+	float: right;
+}
+
+.post_content {
+	margin-bottom: 40px;
+}
+
+.social-buttons #___plusone_0, .social-buttons #___plusone_1 {
+	float: right !important;
+	width: 75px !important;
+	padding-top: 2px !important;
+}
+
+.social-buttons .fb-like {
+	margin-right: 10px;
+}
