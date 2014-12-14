@@ -107,7 +107,7 @@ The last thing is to apply our plugin in project. We do it by line:
 apply plugin: 'testandpmdresultssender'
 {% endhighlight %}
 
-Let's test it. As we know, the name of our task is **someTask**. We ececute it with the command and wait for result:
+Let's test it. As we know, the name of our task is **someTask**. We execute it with the command and wait for result:
 
 {% highlight bash %}
 gradle someTask
